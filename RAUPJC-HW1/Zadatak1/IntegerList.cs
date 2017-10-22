@@ -27,7 +27,7 @@ namespace Zadatak1
             {
                 _size *= 2;
 
-                int[] tempArray = new int[_size];
+                var tempArray = new int[_size];
                 _internalStorage.CopyTo(tempArray, 0);
                 _internalStorage = tempArray;
             }
